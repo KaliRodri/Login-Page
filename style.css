@@ -1,6 +1,6 @@
 @media only screen and (max-width: 720px){
     body{
-        background-image: url(../fundo.jpg);
+        background-image: url(fundo.jpg);
         background-size: cover;
         width: 100%;
         min-height: 1600px;
@@ -39,11 +39,11 @@
         background-position-y: 11px;
     }
     .e-mail{
-        background-image: url(/icone-usuario.png);
+        background-image: url(icone-usuario.png);
         background-size: 30px 35px;
     }
     .password{
-        background-image: url(/icone-cadeado.png);
+        background-image: url(icone-cadeado.png);
         background-size: 30px 35px;
 
     }
