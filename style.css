@@ -1,6 +1,6 @@
 @media only screen and (max-width: 720px){
     body{
-        background-image: url(fundo.jpg);
+        background-image: url(../fundo.jpg);
         background-size: cover;
         width: 100%;
         min-height: 1600px;
@@ -39,11 +39,11 @@
         background-position-y: 11px;
     }
     .e-mail{
-        background-image: url(icone-usuario.png);
+        background-image: url(/icone-usuario.png);
         background-size: 30px 35px;
     }
     .password{
-        background-image: url(icone-cadeado.png);
+        background-image: url(/icone-cadeado.png);
         background-size: 30px 35px;
 
     }
@@ -65,4 +65,73 @@
         background-color: white;
         border: 1px solid orange;
     }
+}
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url(../fundo.jpg);
+        background-size: cover;
+        width: auto;
+        margin: auto;
+        background-repeat: no-repeat;
+        font-family: sans-serif;
+    }
+    form{
+        display: block;
+        text-align: center;
+    }
+    .perfil{
+        display: block;
+        width: auto;
+        margin: -150px auto 50px auto;
+        
+    }
+    .login{
+        margin: 150px auto auto auto;
+        background-color: rgba(240, 248, 255, 0.425);
+        padding: 25px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 500px;
+        border-radius: 15px;
+    }
+    input{
+        width: 500px;
+        height: 40px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        font-size: 1.5em;
+        border: none;
+        padding-left: 50px ;
+        background-repeat: no-repeat;
+        background-position-x: 13px;
+        background-position-y: 8px;
+    }
+    .e-mail{
+        background-image: url(/icone-usuario.png);
+        background-size: 25px 25px;
+    }
+    .password{
+        background-image: url(/icone-cadeado.png);
+        background-size: 25px 25px;
+
+    }
+    .logar{
+        width: 500px;
+        margin: 15px auto;
+        border: none;
+        padding: 20px;
+        font-size: 1.5em;
+        background-color: rgb(255, 166, 0);
+        color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        letter-spacing: 0.1em;
+    }
+    button:hover{
+        box-shadow: 2px 10px 45px rgba(0, 0, 0, 0.178);
+        color: orange;
+        background-color: white;
+        border: 1px solid orange;
+    }
+
 }
