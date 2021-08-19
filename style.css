@@ -1,3 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    }
+    body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    }
+    *, ::after, ::before {
+    box-sizing: inherit;
+    }
+    /* sets the body height of the browser, so that backgrounds and div heights work correctly. */
+    html, body {
+    min-height: 100%;
+    }
+    body {
+    text-rendering: optimizeLegibility;
+    }
 @media only screen and (max-width: 720px){
     body{
         background-color: rgb(156, 054, 444);
