@@ -93,6 +93,7 @@
         padding-bottom: 60px;
         width: 40%;
         border-radius: 15px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
     }
     input{
         width: 90%;
