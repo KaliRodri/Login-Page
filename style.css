@@ -39,11 +39,11 @@
         background-position-y: 11px;
     }
     .e-mail{
-        background-image: url(/icone-usuario.png);
+        background-image: url(icone-usuario.png);
         background-size: 30px 35px;
     }
     .password{
-        background-image: url(/icone-cadeado.png);
+        background-image: url(icone-cadeado.png);
         background-size: 30px 35px;
 
     }
@@ -108,11 +108,11 @@
         background-position-y: 8px;
     }
     .e-mail{
-        background-image: url(/icone-usuario.png);
+        background-image: url(icone-usuario.png);
         background-size: 25px 25px;
     }
     .password{
-        background-image: url(/icone-cadeado.png);
+        background-image: url(icone-cadeado.png);
         background-size: 25px 25px;
 
     }
